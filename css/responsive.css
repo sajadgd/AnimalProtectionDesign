@@ -1,0 +1,205 @@
+@media screen and (max-width : 1200px) {
+    .sky{
+        height: 725px;
+        z-index: -1;
+    }
+    .for {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+    }
+    footer .overlay {
+        background-color: rgba(24, 0, 37, 0.877);
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+    .footer {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .footer .footer-content {
+        width: 560px;
+        margin: auto;
+    }
+    .footer .footer-content p{
+        color: white;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 992px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .moon {
+        position: absolute;
+        width: 150px;
+        right: 40.5%;
+        bottom: 34px;
+    }
+    .wolf .wolf-content p {
+        width: 472px;
+        color: rgb(8, 0, 51);
+        text-align: justify;
+        line-height: 25px;
+        font-weight: 700px;
+    }
+    .monkey .monkey-title h1 {
+        margin-bottom: 25px;
+        font-size: 35px;
+        font-weight: bold;
+        margin-left: 415px;
+    }
+    .monkey .monkey-title p {
+        font-size: 18px;
+        margin-left: 415px;
+    }
+    footer {
+        background-image: url('../images/lionbg.svg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+    .footer {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width : 768px) {
+    .moon {
+        position: absolute;
+        width: 150px;
+        right: 39.5%;
+        bottom: 0px;
+    }
+    .wolf .wolf-content p {
+    width: 420px;
+    color: rgb(8, 0, 51);
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 700px;
+    text-shadow: -0.5px -0.5px white;
+}
+    .monkey .monkey-content p {
+        width: 663px;
+        color: white;
+        text-align: justify;
+        line-height: 25px;
+        margin: auto;
+    }
+}
+@media screen and (max-width : 576px) {
+    body{
+        background-color: rgb(14, 0, 33); ;
+    }
+    .moon {
+        position: absolute;
+        width: 150px;
+        right: 35.5%;
+        bottom: -10px;
+    }
+    .wolf {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .wolf .wolf-content p {
+        width: 96%;
+        color: white;
+        text-align: justify;
+        line-height: 25px;
+        font-weight: 700px;
+        text-shadow: -2px -2px 3px black;
+        margin: auto;
+        background-color: rgba(8, 0, 51, 0.247);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .monkey .monkey-title h1 {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 30px 0px;
+        color: white;
+    }
+    .monkey .monkey-title p {
+        font-size: 18px;
+        margin: auto;
+        color: white;
+    }
+    .monkey .monkey-content p {
+        width: 96%;
+        color: white;
+        text-align: justify;
+        line-height: 25px;
+        margin: auto;
+    }
+    .footer {
+        padding: 25px 0;
+        text-align: center;
+    }
+    .footer .footer-title h1 {
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+    .footer .footer-title p {
+        font-size: 14.1;
+    }
+    .footer .footer-content {
+        width: 96%;
+        margin: auto;
+            margin-top: auto;
+        margin-top: 0px;
+        color: white;
+        line-height: 1.5;
+    }
+    .footer .footer-content p{
+        text-align: justify;
+    }
+    @media screen and (max-width : 400px) {
+        p{
+            font-size: 14px;
+        }
+        .moon {
+            position: absolute;
+            width: 130px;
+            right: 31.5%;
+            bottom: -20px;
+        }
+        .wolf .wolf-title p {
+            font-size: 17px;
+            line-height: 1.5;
+        }
+        .monkey .monkey-title {
+            width: 100%;
+            text-align: center;
+            color: rgb(8, 0, 51);
+            margin-top: 325px;
+        }
+        .monkey .monkey-title h1 {
+            font-size: 35px;
+            font-weight: bold;
+            margin: 15px 0px;
+            color: white;
+        }
+        .footer .footer-title p {
+            font-size: 14.1;
+            line-height: 1.5;
+        }
+        .footer form {
+            width: 96%;
+            margin: 35px auto;
+        }
+
+    }
+
+}
